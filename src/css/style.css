@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'song';
+    src: local("song"), url(../font/song.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'CaviarDreams';
+    src: local("CaviarDreams"), url(../font/CaviarDreams.ttf) format("truetype");
+}
+
+
+/*Home*/
+
+.title-initial {
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.title-initial p {
+    font-family: 'song';
+    font-size: 60px;
+}
+
+.title-initial button {
+    font-family: 'CaviarDreams';
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 24px;
+    box-shadow: -5px 5px 10px #000;
+    border: 0;
+}
+
+.title-initial button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+}
+
+.logo h5 {
+    color: #fff;
+    font-family: 'CaviarDreams';
+    text-decoration: none !important;
+}
+
+.menu {
+    float: right;
+}
+
+.site-layout {
+    background: #fff;
+}
+
+.card-deck .card {
+    margin-right: 3% !important;
+    margin-left: 3% !important;
+}
+
+.email {
+    width: 100%;
+    padding: 30px;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+}
+
+.email h3 {
+    font-family: 'CaviarDreams';
+    color: #fff;
+}
+
+.ant-space-item {
+    width: 100% !important;
+}
+
+.comments-title {
+    font-family: 'CaviarDreams';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+/*Termined Home*/
+
+
+/*About*/
+
+.steps-content {
+    min-height: 200px;
+    margin-top: 16px;
+    padding-top: 80px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 1px 6px 10px #a7a7a7;
+}
+
+.steps-action {
+    text-align: center;
+}
+
+.steps-action button,
+.steps-action button:hover {
+    font-family: 'CaviarDreams';
+    background-image: linear-gradient(43deg, #C850C0 46%, #a655cf 100%);
+    border-radius: 24px;
+    border: 0;
+}
+
+.steps-action button,
+.steps-action button:hover {
+    color: #fff;
+    font-family: 'CaviarDreams';
+    background-image: linear-gradient(43deg, #C850C0 46%, #a655cf 100%);
+    border-radius: 24px;
+    border: 0;
+}
+
+.vision h5,
+.mision h5,
+.title-company h2,
+.obj h5 {
+    font-family: 'CaviarDreams';
+    font-weight: bold;
+}
+
+.vision p,
+.mision p,
+.title-company p,
+.obj>ul>li {
+    font-family: 'CaviarDreams';
+}
+
+.divider {
+    height: 100%;
+    position: absolute;
+    background-color: #cf40a4;
+}
+
+.ant-steps-item-process>.ant-steps-item-container>.ant-steps-item-icon {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border: 0;
+}
+
+
+/*Termined About*/
+
+.contact {
+    background: url(../img/1.png);
+    background-size: cover;
+    height: 80vh;
+}
+
+.contact h2,
+.contact p {
+    font-family: 'CaviarDreams';
+    text-align: center;
+}
+
+.contact-form h3,
+.contact-form label {
+    font-family: 'CaviarDreams';
+}
+
+.btn-cnt {
+    text-align: right;
+}
+
+.btn-cnt button {
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px #000;
+    border: 0;
+}
